@@ -36,4 +36,8 @@ public class Customer
         this.cashOnHand = cashOnHand;
     }
 
+    // buySnacks method
+    public void buySnacks(double cost, int purchased) {
+        this.cashOnHand -= cost * purchased;
+    }
 }

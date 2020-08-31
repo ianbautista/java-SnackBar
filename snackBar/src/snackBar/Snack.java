@@ -53,7 +53,7 @@ public class Snack
 	}
 	public void setCost(double cost)
 	{
-		this.cost = cost * ;
+		this.cost = cost;
 	}
 
 	// vendingMachineId getter and setter
@@ -65,4 +65,22 @@ public class Snack
 	{
 		this.vendingMachineId = vendingMachineId;
 	}
+
+	// add quantity when given how many to add
+	public void addSnacks(int snacksAdded)
+   	{
+      	this.quantity += snacksAdded;
+   	}
+
+   	// buy snack when given how many to buy
+	public void snacksBought(int snacksPurchased)
+   	{
+      	this.quantity -= snacksPurchased;
+   	}
+
+   	// get total cost given a quantity
+   	public void totalCost(int snacksPurchased)
+   	{
+   		this.cost *= snacksPurchased;
+   	}
 }

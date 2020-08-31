@@ -174,9 +174,9 @@ Create the classes mentioned above and then instantiate these objects from those
 
 ### Processing
 
-* [ ] Customer 1 (Jane) buys 3 of snack 4 (Soda).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 4 (Soda).
+* [x] Customer 1 (Jane) buys 3 of snack 4 (Soda).
+  * [x] Print Customer 1 (Jane) Cash on hand.
+  * [x] Print quantity of snack 4 (Soda).
 * [ ] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
   * [ ] Print Customer 1 (Jane) Cash on hand.
   * [ ] Print quantity of snack 3 (Pretzel).

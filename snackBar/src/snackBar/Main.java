@@ -30,6 +30,15 @@ public class Main
 
       	// In Vending Machine Drink
       	Snack soda = new Snack("Soda", 24, 2.50, drink.getId());
+      	Snack water = new Snack("water", 20, 2.75, drink.getId());
+
+      	// Processing
+      	// Customer 1 (Jane) buys 3 of snack 4 (Soda).
+      	jane.buySnacks(soda.getCost(), 3);
+      	System.out.println("Customer 1 cash on hand", jane.getCashOnHand());
+      	soda.snacksBought(3);
+      	System.out.println("Quantity of snack 4", soda.getQuantity());
+
 	}
 
 	public static void main(String[] args)
