@@ -35,15 +35,23 @@ public class Main
       	// Processing
       	// Customer 1 (Jane) buys 3 of snack 4 (Soda).
       	jane.buySnacks(soda.getCost(), 3);
-      	System.out.println("Customer 1 cash on hand", jane.getCashOnHand());
+      	System.out.println("Customer 1 cash on hand" + jane.getCashOnHand());
       	soda.snacksBought(3);
-      	System.out.println("Quantity of snack 4", soda.getQuantity());
+      	System.out.println("Quantity of snack 4" + soda.getQuantity());
 
       	// Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
       	jane.buySnacks(pretzel.getCost(), 3);
-      	System.out.println("Customer 1 cash on hand", jane.getCashOnHand());
+      	System.out.println("Customer 1 cash on hand" + jane.getCashOnHand());
       	pretzel.snacksBought(3);
-      	System.out.println("Quantity of snack 3", pretzel.getQuantity());
+      	System.out.println("Quantity of snack 3" + pretzel.getQuantity());
+
+      	// Customer 2 (Bob) buys 2 of snack 4 (Soda).
+      	bob.buySnacks(soda.getCost(), 3);
+      	System.out.println("Customer 1 cash on hand" + bob.getCashOnHand());
+      	soda.snacksBought(3);
+      	System.out.println("Quantity of snack 4" + soda.getQuantity());
+
+
 	}
 
 	public static void main(String[] args)
