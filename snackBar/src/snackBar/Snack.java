@@ -10,7 +10,7 @@ public class Snack
 	private int vendingMachineId;
 
 	// constructor
-	public Snack(String name, int quantity, double cost, int vendingMachineId;)
+	public Snack(String name, int quantity, double cost, int vendingMachineId);
 	{
 		maxId++;
 		id = maxId;
