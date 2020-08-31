@@ -51,6 +51,10 @@ public class Main
       	soda.snacksBought(3);
       	System.out.println("Quantity of snack 4" + soda.getQuantity());
 
+      	// Customer 1 (Jane) finds $10.
+      	jane.findCash(10.00);
+      	System.out.println("Customer 1 cash on hand" + jane.getCashOnHand());
+
 
 	}
 

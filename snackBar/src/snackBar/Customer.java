@@ -40,4 +40,10 @@ public class Customer
     public void buySnacks(double cost, int purchased) {
         this.cashOnHand -= cost * purchased;
     }
+
+    // add cash to cash on hand
+    public void findCash(double foundCash)
+    {
+        this.cashOnHand += foundCash;
+    }
 }
