@@ -47,7 +47,7 @@ public class Main
 
       	// Customer 2 (Bob) buys 2 of snack 4 (Soda).
       	bob.buySnacks(soda.getCost(), 2);
-      	System.out.println("Customer 1 cash on hand" + bob.getCashOnHand());
+      	System.out.println("Customer 2 cash on hand" + bob.getCashOnHand());
       	soda.snacksBought(2);
       	System.out.println("Quantity of snack 4" + soda.getQuantity());
 
@@ -60,6 +60,17 @@ public class Main
       	System.out.println("Customer 1 cash on hand" + jane.getCashOnHand());
       	chocolateBar.snacksBought(1);
       	System.out.println("Quantity of snack 2" + chocolateBar.getQuantity());
+
+      	// Add 12 more items to snack 3 (Pretzel).
+      	pretzel.addSnacks(12);
+      	System.out.println("Quantity of snack 3" + pretzel.getQuantity());
+
+      	// Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
+      	bob.buySnacks(pretzel.getCost(), 3);
+      	System.out.println("Customer 2 cash on hand" + bob.getCashOnHand());
+      	pretzel.snacksBought(3);
+      	System.out.println("Quantity of snack 3" + pretzel.getQuantity());
+
 	}
 
 	public static void main(String[] args)
