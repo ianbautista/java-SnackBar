@@ -10,7 +10,7 @@ public class Snack
 	private int vendingMachineId;
 
 	// constructor
-	public Snack(String name, int quantity, double cost, int vendingMachineId);
+	public Snack(String name, int quantity, double cost, int vendingMachineId)
 	{
 		maxId++;
 		id = maxId;
@@ -79,8 +79,8 @@ public class Snack
    	}
 
    	// get total cost given a quantity
-   	public void totalCost(int snacksPurchased)
+   	public double totalCost(int snacksPurchased)
    	{
-   		this.cost *= snacksPurchased;
+   		return this.cost *= snacksPurchased;
    	}
 }
